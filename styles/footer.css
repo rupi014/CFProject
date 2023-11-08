@@ -1,0 +1,25 @@
+.footer-wrapper {
+    background-color: #36383f;
+    height: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -200px;
+}
+
+.footer-wrapper p {
+    border: 1px solid rgb(146, 145, 145);
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px 118.3px;
+    white-space: pre;   
+}
+
+.footer-wrapper span {
+    font-size: 1.2em;
+    font-family: 'Belanosima', sans-serif;
+}

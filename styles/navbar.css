@@ -1,0 +1,88 @@
+.navbar {
+    height: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.navbar > .navbar-left {
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar > .navbar-left img {
+   width: 200px;
+   margin-left: -20px;
+
+}
+
+.navbar > .navbar-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: -1200px;
+  
+}
+
+.navbar-center > span {
+    color: #ccbb71;
+    margin-left: 520px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+
+}
+
+.links-wrapper > .nav-link {
+    width: 80px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ;
+    
+}
+
+.links-wrapper > .nav-link-spark a {
+    font-size: 1.2em;
+    color: grey;
+    text-decoration: none;
+    margin-left: 60px;
+    transition: 0.5s ;
+
+}
+
+.links-wrapper > .nav-link-spark a:hover {
+    letter-spacing: 1px;
+    color: #ccbb71;
+}
+
+.links-wrapper > .nav-link-spark i {
+    color: grey;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #ccbb71;
+    letter-spacing: 1px;
+}
+
+
+.navbar > .navbar-right > .buttons > .buttons-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
